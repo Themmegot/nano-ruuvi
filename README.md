@@ -31,3 +31,5 @@ Serial debug at 115200 prints each broadcast (open with DTR asserted).
 - Runs continuously on USB power; battery operation would want a
   deep-sleep/advertise duty cycle (not yet implemented).
 - Battery level in the payload is hardcoded to 3300 mV (USB-powered).
+
+CAVEAT: unofficial, not affiliated with Ruuvi Innovations, emulates their public RAWv2 broadcast format for compatibility with Victron/VRM.
